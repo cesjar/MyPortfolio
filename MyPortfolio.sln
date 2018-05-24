@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A5EB114-55A7-4613-9E42-817A8F32540F}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{57F61E7E-F260-477C-A0C4-150BBA8FCB3E}"
+	ProjectSection(SolutionItems) = preProject
+		script.js = script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{BB91471E-17FF-4B74-AAC3-913A2100CA5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{1062B342-7A0A-42DD-AC3F-4F0A0E82B4E8}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57F61E7E-F260-477C-A0C4-150BBA8FCB3E} = {0A5EB114-55A7-4613-9E42-817A8F32540F}
+		{BB91471E-17FF-4B74-AAC3-913A2100CA5A} = {0A5EB114-55A7-4613-9E42-817A8F32540F}
+		{1062B342-7A0A-42DD-AC3F-4F0A0E82B4E8} = {0A5EB114-55A7-4613-9E42-817A8F32540F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7AED8B4-7934-42AB-A9AC-A88BBB57A7D4}
+	EndGlobalSection
+EndGlobal
