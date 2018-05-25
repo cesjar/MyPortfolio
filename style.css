@@ -1,11 +1,18 @@
 ﻿* {
     color: #05FFFE;
-
+    font-family: 'Itim','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
 }
 
 nav {
-
     background-color: #03002F;
+}
+.nav-link
+{
+    color:white !important;
+}
+.nav-link:hover {
+    color: #05FFFE !important;
+    text-decoration: none;
 }
 .panel {
     height: auto;
@@ -17,7 +24,7 @@ nav {
             -= HOME =-
 */
 #home {
-    height: 100vh;
+    height: 100%;
     width: auto;
     background-image: url(img/background.jpg);
     background-position: center;
@@ -25,8 +32,8 @@ nav {
     background-repeat: no-repeat;
 }
 #name {
-    padding-top:25%;
-    padding-left:5%;
+    padding-top: 25%;
+    padding-left: 5%;
     color: #05FFFE;
     font-size: 3em;
     background-color: transparent;
@@ -120,13 +127,55 @@ h3
 */
 
 .containerAboutMe {
-    padding-top: 50px;
+    padding-top: 9%;
     text-align: center;
 }
 
+.myPhoto {
+    margin-top: 10%;
+    margin-bottom: 7%;
+    margin-right:7%;
+}
+.aboutMe
+{
+    color:white !important;
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size:20px;
+    text-align:justify;
+}
 
-
-
+.contactList {
+    margin-top: 10%;
+}
+.contactList li
+{
+    color:white;
+    list-style-type:none;
+    margin-bottom:5%;
+    font-size:20px;
+    text-align:left;
+}
+.image
+{
+    margin-right:5%;
+}
+.contactLinks
+{
+    color:white;
+}
+.contactLinks:hover 
+{
+    text-decoration: none;
+    color: #05FFFE
+}
+.aboutMeContactList
+{
+    color:deeppink;
+}
+/*
+                -=Footer=-
+*/
 
 #footer {
     height: 40px !important;
@@ -145,7 +194,7 @@ h3
 
 
 /*
-    Progress Bar
+                -=Progress Bar=-
 */
 .progress {
     width: 150px;

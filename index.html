@@ -9,9 +9,10 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="jquery.scrollify.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
 
 </head>
 <body>
@@ -41,7 +42,7 @@
 
     <div class="panel cover-container" data-section-name="home">
         <div class="container-fluid" id="home">
-            <h1 class="cover-heading" id="name">
+            <h1 class="cover-heading pt-50" id="name">
                 Jarosław Ceszke
             </h1>
             <h1 class="lead ml-6" id="juniorTester">
@@ -228,29 +229,26 @@
     <div class="panel cover-container" id="aboutMe">
         <div class="container-fluid">
             <div class="containerAboutMe">
-                <div class="col">
-                    <h1 class="bottomPaddingH1">About Me</h1>
-                    <ul>
-                        <li>
-                            <div class="row" id="infoAbout">
-                                <div class="col-md-2">06-2017</div>
-                                <div class="col-md-10"><a href="https://en.wikipedia.org/wiki/International_Software_Testing_Qualifications_Board" class="links" title="VISTQB Foundation Level">ISTQB Foundation Level</a></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h1 class="bottomPaddingH1">Contact</h1>
-                        <div class="row">
-                            <div class="col">
-                                Linkedin
-                            </div>
-                            <div class="col">
-                                GitHub
-                            </div>
-                            <div class="col">
-                                Email
-                            </div>
+                <div class="row justify-content-around">
+                    <div class="col-md-4">
+                        <h1>About me</h1>
+                        <img src="img/myPhoto.jpg" alt="My Photo" class="rounded-circle img-fluid float-left myPhoto myPhoto" />
+                        <p class="aboutMe">
+                            Hello my name is Jarek. I am 26 years old and currently I am studying software testing engineering.
+                            I am a confident person who likes new challenges
+                            Thank you for your time to browse my site. I hard working every day to be better.
+                            I am currently looking for a job as a junior tester. Maybe YOU can offer me work of my dreams.
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <h1>Contact</h1>
+                        <ul class="contactList">
+                            <li><img src="img/phoneIcon.png" alt="Phone icon" class="image" />Phone: 512 224 255</li>
+                            <li><img src="img/gmailIcon.png" alt="Alternate Text" class="image" />Email: jarek.ceszke@gmail.com</li>
+                            <li><img src="img/githubIcon.png" alt="Alternate Text" class="image" />Github: <a class="contactLinks" href="https://github.com/cesjar">github.com/cesjar</a> </li>
+                            <li><img src="img/linkedinIcon.png" alt="Alternate Text" class="image" />Linkedin: <a class="contactLinks" href="https://www.linkedin.com/in/jaros%C5%82aw-ceszke-2258bb139/">linkedin.com</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
