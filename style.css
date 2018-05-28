@@ -31,6 +31,11 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
 }
+@media only screen and (max-width:1920px) {
+    #home {
+        background-image: url(img/backgroundHD.jpg);
+    }
+}
 #name {
     padding-top: 25%;
     padding-left: 5%;
@@ -105,13 +110,13 @@ h3
     color: #05FFFE;
     text-decoration:none;
 }
-#work ul {
+.work ul {
     padding-left:10% !important;
 }
-#work ul li {
+.work ul li {
     list-style-image: url(img/neon.png) !important;
 }
-#infoAbout
+.infoAbout
 {
     font-size:20px;
 }
