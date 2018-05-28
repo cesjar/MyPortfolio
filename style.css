@@ -71,4 +71,5 @@ h3{padding-top:10px;text-align:center;color:white !important;}
 @media only screen and (max-width:990px){.progress{margin-bottom:20px;}
 .containerExpOther ul{padding-left:12%;}
 #courses ul{padding-left:12%;}
+#name { padding-top: 50%;color: #05FFFE;font-size: 5em;}
 }

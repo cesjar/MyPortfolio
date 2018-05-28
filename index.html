@@ -38,7 +38,7 @@
     </nav>
 
     <div class="panel cover-container">
-        <div class="container-fluid" id="home">
+        <div class="container-fluid" id="home" data-section="#1">
             <h1 class="cover-heading" id="name">
                 Jarosław Ceszke
             </h1>
@@ -252,10 +252,11 @@
         </div>
     </div>
     <footer class="panel cover-container" id="footer">
-        <p> &copy;Jarosław Ceszke</p>
+        <p>All rights reserved &copy;Jarosław Ceszke 2018</p>
     </footer>
     <script src="js/script.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery.scrollify.js"></script>
     <script>
         $(function () {
@@ -265,7 +266,27 @@
         });
 
     </script>
-
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('#juniorTester', {
+            duration: 2000,
+            delay: 300
+        });
+        sr.reveal('.progress', {
+            duration: 2000,
+            delay: 300
+        });
+        sr.reveal('.containerExpOther', {
+            duration: 2000,
+            delay: 300
+        });
+        sr.reveal('.containerAboutMe', {
+            duration: 2000,
+            delay: 300
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 </body>
 </html>
