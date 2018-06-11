@@ -46,8 +46,8 @@ h3{padding-top:10px;text-align:center;color:white !important;}
 .progress.neon.istqb .progress-left .progress-bar{animation:istqbMssqlScrum 1.4s linear forwards 1.8s;}
 .progress.neon.mssql .progress-left .progress-bar{animation:cssHtml 1.4s linear forwards 1.8s;}
 .progress.neon.scrum .progress-left .progress-bar{animation:cssHtml 1.4s linear forwards 1.8s;}
-.progress.neon.css .progress-left .progress-bar{animation:cssHtml 1.4s linear forwards 1.8s;}
-.progress.neon.html .progress-left .progress-bar{animation:cssHtml 1.4s linear forwards 1.8s;}
+.progress.neon.css .progress-left .progress-bar{animation:bootstrap 1.4s linear forwards 1.8s;}
+.progress.neon.html .progress-left .progress-bar{animation:bootstrap 1.4s linear forwards 1.8s;}
 .progress.neon.javascript .progress-left .progress-bar{animation:javascript 1.4s linear forwards 1.8s;}
 .progress.neon.bootstrap .progress-left .progress-bar{animation:bootstrap 1.4s linear forwards 1.8s;}
 @keyframes loading-1{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
